@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Demo_04:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Demo_04_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Demo_04/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Demo_04" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Spring-4.3.16.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.16.RELEASE" />
+          <element id="library" level="project" name="c3p0-0.9.1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
